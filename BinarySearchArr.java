@@ -42,7 +42,7 @@ public class BinarySearchArr {
         int a = sc.nextInt();
         int result = BinarySearch(arr, a);
 
-        if (result == 0) {
+        if (result == -1) {
             System.out.println("Searched element not found ");
         } else {
             System.out.println("Searched element found at location of " + result);
